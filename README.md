@@ -5,11 +5,11 @@ Get that Alumni is a Python script for retrieving the details of Doctoral Alumni
 ##  Requirements
 This script requires the following third-party libraries:
 
-Requests: https://docs.python-requests.org/en/master/user/install/
-Beautiful Soup: https://www.crummy.com/software/BeautifulSoup/#Download
-Pandas: https://pandas.pydata.org/docs/getting_started/install.html
-NumPy: https://numpy.org/install/
-OpenPyXL: https://openpyxl.readthedocs.io/en/stable/
+* Requests: https://docs.python-requests.org/en/master/user/install/
+* Beautiful Soup: https://www.crummy.com/software/BeautifulSoup/#Download
+* Pandas: https://pandas.pydata.org/docs/getting_started/install.html
+* NumPy: https://numpy.org/install/
+* OpenPyXL: https://openpyxl.readthedocs.io/en/stable/
 
 ## Recommendations
 This script was written with: 
@@ -39,7 +39,7 @@ To another url:
 url= "http://www.google.com/"
 ```
 You will get a NameError:
-```python
+```console
 NameError: Provided keys "['Cohort' 'Description' 'Doctoral project' 'Supervisors']" are not table headers from the website.
 
 Please provide a valid key for the Info_d dictionary 

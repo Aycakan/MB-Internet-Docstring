@@ -29,8 +29,11 @@ You can retreive the desired information by targeting the particular table heade
 To achieve this you can:
 
 **A) Inspect the source code:** 
+
     1) Check the website source code for table headers
+    
     2) Add the table headers to the **Info_d** dictionary as **keys**
+    
     ```python
     # Scrape information according to the table headers:
     # !Dict keys should be named after the table headers in the url source code!
@@ -94,8 +97,7 @@ Out[21]:
   File Name: Doctoral_Alumni_Info.xlsx
   ```
   7) The spreadsheet:
-  ![Settings Window](https://raw.github.com/excel_examp.png)
-
+  
 ## Possible Errors
 # Different Websites as url:
 The script is specifically designed for this website: http://www.mind-and-brain.de/people/doctoral-alumni/. 

@@ -29,22 +29,19 @@ You can retreive the desired information by targeting the particular table heade
 To achieve this you can:
 
 **A) Inspect the source code:** 
-
     1) Check the website source code for table headers
-    
     2) Add the table headers to the **Info_d** dictionary as **keys**
-    
-    ```python
-    # Scrape information according to the table headers:
-    # !Dict keys should be named after the table headers in the url source code!
-    Info_d = {'Doctoral project':[], 'Description':[], 'Supervisors':[],
-                       'Cohort': [], 'URLs':[]}
-    ```
+      ```python
+      # Scrape information according to the table headers:
+      # !Dict keys should be named after the table headers in the url source code!
+      Info_d = {'Doctoral project':[], 'Description':[], 'Supervisors':[],
+                         'Cohort': [], 'URLs':[]}
+      ```
     3) Change the **file_name** to the desired spreadsheet name:
-    ```python
-    # Determine the name of the output file
-    file_name = 'Doctoral_Alumni_Info.xlsx'
-    ```
+        ```python
+        # Determine the name of the output file
+        file_name = 'Doctoral_Alumni_Info.xlsx'
+        ```
     4) Run the script
     5) The spreadsheet will be created in your working directory as the output. This message will pop up in the console if it was a success:
   ```Console

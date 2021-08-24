@@ -183,5 +183,3 @@ And make this for loop a comment:
 # Contact Information
 To submit bug reports and suggestions:
 aycaaakan@gmail.com
-
-

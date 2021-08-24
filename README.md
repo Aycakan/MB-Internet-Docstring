@@ -37,7 +37,7 @@ To achieve this you can:
       Info_d = {'Doctoral project':[], 'Description':[], 'Supervisors':[],
                          'Cohort': [], 'URLs':[]}
       ```
-3) **Optional:** Change the **file_name** to the desired spreadsheet name. Default file_name is "Doctoral_Alumni_Info.xlsx"
+3) Optional: Change the **file_name** to the desired spreadsheet name. Default file_name is "Doctoral_Alumni_Info.xlsx"
 
   ```python
   # Determine the name of the output file
@@ -98,12 +98,12 @@ Out[21]:
 
 # Possible Errors
 
-**1) Different Websites as url:**
+**1) Different Websites as the url:**
 
 The script is specifically designed for this website: http://www.mind-and-brain.de/people/doctoral-alumni/. 
 For this reason, changing the url could result in confusing outputs or errors.
 
-Changing the url could result in a NameError as table headers are unique for different urls:
+Changing the url could raise a NameError as table headers are unique for different websites:
 
 ```console
 NameError: Provided keys "[...]" are not table headers from the website.

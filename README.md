@@ -111,7 +111,7 @@ NameError: Provided keys "[...]" are not table headers from the website.
 Please provide a valid key for the Info_d dictionary 
 and make sure that your url is correct.
 ```
-**2)Keys that are not table headers from the url:**
+**2) Keys that are not table headers from the url:**
 
 The script was designed to use the keys from Info_d dictionary to search through the table headers and fetch the table data through this process.
 Keys from this dictionary is also used as the table headers for the output spreadsheet.
@@ -127,7 +127,7 @@ Info_d = {'Doctoral project':[], 'Description':[], 'Supervisors':[],
 # should be added to both Info_d and custom_keys list to avoid NameError
 custom_keys = ['Alumni URLs']
   ```
-To avoid NameError:
+To avoid raising this NameError:
 
 ```console
 NameError: Provided keys "[...]" are not table headers from the website.

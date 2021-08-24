@@ -31,7 +31,7 @@ To achieve this you can:
 
 **A) Inspect the source code:** 
 1) Check the website source code for **table headers**
-2) Add the table headers to the **Info_d** dictionary as **keys**. These keys are used to fetch the table data and makes up the spreadsheet's table headers. 
+2) Add the table headers to the **Info_d** dictionary as **keys**. These keys are used to fetch the table data and make up the spreadsheet's table headers. 
       ```python
       # !Dict keys should be named after the table headers in the URL source code!
       Info_d = {'Doctoral project':[], 'Description':[], 'Supervisors':[],
@@ -114,7 +114,7 @@ and make sure that your URL is correct.
 **2) Keys that are not table headers from the URL:**
 
 The script was designed to use the keys from Info_d dictionary to search through the table headers and fetch the table data through this process.
-Keys from this dictionary is also used as the table headers for the output spreadsheet.
+Keys from this dictionary are also used as the table headers for the output spreadsheet.
 If you wish to code for scraping another information that is not under the alumni tables or does not have the applicable source code structure, please include the name of this variable to both **Info_d** dictionary and **custom_keys** list:
 
   ```python
@@ -137,7 +137,7 @@ and make sure that your URL is correct.
 ```
 
 ## Change Default Behavior
-The script scrapes the Alumni Names and Alumni URLs by default as they do not have the same source code structure with the other table elements of the website. If you wish **not to** scrape the Name or URL information, you could follow these steps:
+The script scrapes the Alumni Names and Alumni URLs by default as they do not have the same source code structure as the other table elements of the website. If you wish **not to** scrape the Name or URL information, you could follow these steps:
 
 **To Not Scrape Alumni Names**:
 Empty the info_dict and make the following for loop a comment:

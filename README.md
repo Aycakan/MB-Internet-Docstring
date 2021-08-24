@@ -136,7 +136,7 @@ Please provide a valid key for the Info_d dictionary
 and make sure that your URL is correct.
 ```
 
-## Change Default Behavior
+# Change Default Behavior
 The script scrapes the Alumni Names and Alumni URLs by default as they do not have the same source code structure as the other table elements of the website. If you wish **not to** scrape the Name or URL information, you could follow these steps:
 
 **To Not Scrape Alumni Names**:
@@ -180,7 +180,7 @@ And make this for loop a comment:
   ```
 
 
-## Contact Information
+# Contact Information
 To submit bug reports and suggestions:
 aycaaakan@gmail.com
 

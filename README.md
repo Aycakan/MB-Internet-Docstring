@@ -75,7 +75,7 @@ Out[21]:
  'Homepage',
  'Current Position']
  ```
-  3) Add the desired table headers to the **Info_d** dictionary as **keys**
+  3) Choose the desired table headers, and add them to the **Info_d** dictionary as **keys**
   ```python
   # !Dict keys should be named after the table headers in the url source code!
   Info_d = {'Doctoral project':[], 'Description':[], 'Supervisors':[],

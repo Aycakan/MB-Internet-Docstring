@@ -1,5 +1,5 @@
 # Get that Alumni
-Get that Alumni is a Python script for retrieving the details of the Doctoral Alumni of Berlin School of Mind and Brain, as a spreadsheet file from the current version of the website: http://www.mind-and-brain.de/people/doctoral-alumni/
+Get that Alumni is a Python script for retrieving the details of the Doctoral Alumni of Berlin School of Mind and Brain, as a spreadsheet, from the current version of the website: http://www.mind-and-brain.de/people/doctoral-alumni/
 
 # Getting Started
 ##  Requirements

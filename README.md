@@ -98,7 +98,7 @@ Out[21]:
 
 # Possible Errors
 
-**1) Different Websites as the URL:**
+**1) When Using Different Websites as the URL:**
 
 The script is specifically designed for this website: http://www.mind-and-brain.de/people/doctoral-alumni/. 
 For this reason, changing the URL could result in confusing outputs or errors.
@@ -111,7 +111,7 @@ NameError: Provided keys "[...]" are not table headers from the website.
 Please provide a valid key for the Info_d dictionary 
 and make sure that your URL is correct.
 ```
-**2) Keys that are not table headers from the URL:**
+**2) When Using Keys that are not table headers from the URL:**
 
 The script was designed to use the keys from Info_d dictionary to search through the table headers and fetch the table data through this process.
 Keys from this dictionary are also used as the table headers for the output spreadsheet.

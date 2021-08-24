@@ -95,9 +95,9 @@ Out[21]:
   File Name: Doctoral_Alumni_Info.xlsx
   ```
 
-## Possible Errors
+# Possible Errors
 
-# Different Websites as url:
+## Different Websites as url:
 
 The script is specifically designed for this website: http://www.mind-and-brain.de/people/doctoral-alumni/. 
 For this reason, changing the url could result in confusing outputs or errors.
@@ -110,11 +110,11 @@ NameError: Provided keys "[...]" are not table headers from the website.
 Please provide a valid key for the Info_d dictionary 
 and make sure that your url is correct.
 ```
-# Keys that are not table headers from the url:
+## Keys that are not table headers from the url:
 
 
 ## Change Default Behavior
-The script scrapes the Alumni Names and Alumni URLs by default. If you wish **not to** scrape the Name or URL information, **see xxx**.
+The script scrapes the Alumni Names and Alumni URLs by default. If you wish **not to** scrape the Name or URL information, you could comment
 
 
 

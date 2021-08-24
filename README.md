@@ -26,14 +26,14 @@ These programs could be used for optimal performance.
 4) Enjoy!
 
 # Usage
-You can retreive the desired information by targeting the particular table headers from the website's source code.
+You can retrieve the desired information by targeting the particular table headers from the website's source code.
 To achieve this you can:
 
 **A) Inspect the source code:** 
 1) Check the website source code for **table headers**
 2) Add the table headers to the **Info_d** dictionary as **keys**. These keys are used to fetch the table data and makes up the spreadsheet's table headers. 
       ```python
-      # !Dict keys should be named after the table headers in the url source code!
+      # !Dict keys should be named after the table headers in the URL source code!
       Info_d = {'Doctoral project':[], 'Description':[], 'Supervisors':[],
                          'Cohort': [], 'URLs':[]}
       ```
@@ -77,7 +77,7 @@ Out[21]:
  ```
   3) Choose the desired table headers, and add them to the **Info_d** dictionary as **keys**
   ```python
-  # !Dict keys should be named after the table headers in the url source code!
+  # !Dict keys should be named after the table headers in the URL source code!
   Info_d = {'Doctoral project':[], 'Description':[], 'Supervisors':[],
                      'Cohort': [], 'URLs':[]}
   ```
@@ -98,20 +98,20 @@ Out[21]:
 
 # Possible Errors
 
-**1) Different Websites as the url:**
+**1) Different Websites as the URL:**
 
 The script is specifically designed for this website: http://www.mind-and-brain.de/people/doctoral-alumni/. 
-For this reason, changing the url could result in confusing outputs or errors.
+For this reason, changing the URL could result in confusing outputs or errors.
 
-Changing the url could raise a NameError as table headers are unique for different websites:
+Changing the URL could raise a NameError as table headers are unique for different websites:
 
 ```console
 NameError: Provided keys "[...]" are not table headers from the website.
 
 Please provide a valid key for the Info_d dictionary 
-and make sure that your url is correct.
+and make sure that your URL is correct.
 ```
-**2) Keys that are not table headers from the url:**
+**2) Keys that are not table headers from the URL:**
 
 The script was designed to use the keys from Info_d dictionary to search through the table headers and fetch the table data through this process.
 Keys from this dictionary is also used as the table headers for the output spreadsheet.
@@ -119,7 +119,7 @@ If you wish to code for scraping another information that is not under the alumn
 
   ```python
 # Scrape information according to the table headers:
-# !Dict keys should be named after the table headers in the url source code!
+# !Dict keys should be named after the table headers in the URL source code!
 Info_d = {'Doctoral project':[], 'Description':[], 'Supervisors':[],
                    'Cohort': [], 'Alumni URLs':[]}
 
@@ -133,14 +133,14 @@ To avoid raising this NameError:
 NameError: Provided keys "[...]" are not table headers from the website.
 
 Please provide a valid key for the Info_d dictionary 
-and make sure that your url is correct.
+and make sure that your URL is correct.
 ```
 
 ## Change Default Behavior
-The script scrapes the Alumni Names and Alumni URLs by default as they do not have the same source code structure with the other elements of the tables in the website. If you wish **not to** scrape the Name or URL information, you could follow these steps:
+The script scrapes the Alumni Names and Alumni URLs by default as they do not have the same source code structure with the other table elements of the website. If you wish **not to** scrape the Name or URL information, you could follow these steps:
 
 **To Not Scrape Alumni Names**:
-Empty the info_dict and make this for loop a comment:
+Empty the info_dict and make the following for loop a comment:
   ```python
 # Scrape the alumni names and surnames
 info_dict={}
@@ -162,7 +162,7 @@ Info_d = {'Doctoral project':[], 'Description':[], 'Supervisors':[],
 custom_keys = []
         
   ```
-Make this for loop a comment:
+And make this for loop a comment:
 ```python
     # Scrape for Alumni 
     # for line in alumna_info.findAll('a'):

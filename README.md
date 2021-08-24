@@ -137,9 +137,9 @@ and make sure that your url is correct.
 ```
 
 ## Change Default Behavior
-The script scrapes the Alumni Names and Alumni URLs by default as they do not have the same source code structure with the rest of the Alumni Information in the website. If you wish **not to** scrape the Name or URL information, you could comment/uncomment these sections of the code:
+The script scrapes the Alumni Names and Alumni URLs by default as they do not have the same source code structure with the other elements of the tables in the website. If you wish **not to** scrape the Name or URL information, you could follow these steps:
 
-**To Deactivate Alumni Names Scaping**:
+**To Not Scrape Alumni Names**:
 Empty the info_dict and make this for loop a comment:
   ```python
 # Scrape the alumni names and surnames
@@ -151,7 +151,7 @@ info_dict={}
         
   ```
 
-**To Deactivate Alumni URLs Scraping**
+**To Not Scrape Alumni URLs**
 Remove 'Alumni URLs' from Info_d dictionary and custom_keys list:
 ```python
 Info_d = {'Doctoral project':[], 'Description':[], 'Supervisors':[],
